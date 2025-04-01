@@ -1,0 +1,19 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: white;
+}
+
+.sidebar {
+  width: 300px;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.canvas {
+  flex: 1;
+  position: relative;
+}
